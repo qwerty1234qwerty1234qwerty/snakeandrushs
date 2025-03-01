@@ -1,24 +1,25 @@
-body, html { 
-	margin: 0; 
-	padding: 0; 
-	overflow: hidden; 
-	display: flex; 
-	justify-content: center; 
-	align-items: center; 
-	height: 100vh; 
-	background-color: #000; 
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
 }
 
-	#gameCanvas { 
-		background-color: #111;
-		max-width: 100vw;
-		max-height: 100vh;
+#gameCanvas {
+    background-color: #111;
+    /* Ограничиваем максимальный размер канваса */
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
-@media (max-width: 600рх) {  
-	#gameCanvas { 
-		/* Изменяем размер канваса для телефонов */  
-		width: 100vw;  
-		height: 100vh;
-	}
+@media (max-width: 600px) {
+    #gameCanvas {
+        /* Изменяем размер канваса для телефонов */
+        width: 100vw;
+        height: 100vh;
+    }
 }
